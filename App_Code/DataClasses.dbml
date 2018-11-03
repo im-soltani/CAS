@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CAS" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-G1ILV6K;Initial Catalog=CAS;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CASConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CAS_Activity" Member="CAS_Activities">
+    <Type Name="CAS_Activity">
+      <Column Name="Srl" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Srl_Erae" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DeadlineDate" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DeadlineTime" Type="System.String" DbType="NChar(8)" CanBeNull="true" />
+      <Column Name="FinalPercent" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Grade" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DocumentFile" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

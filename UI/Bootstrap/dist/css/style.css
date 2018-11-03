@@ -1,0 +1,68 @@
+.dashboard-banner
+{
+	margin:2%;
+	text-align:center;
+}
+
+.dashboard-banner img
+{
+	width:100%;
+}
+
+.table
+{
+	direction:rtl;
+}
+
+.table td, .table th
+{
+	text-align:center;
+}
+
+.table.right-align td, .table.right-align th
+{
+	text-align:right;
+}
+
+.item-summary {
+    margin: 20px 10px;
+}
+
+.item-thumbnail {
+    float: left;
+    width: 50%;
+    display: inline-block;
+	text-align:center;
+}
+
+.item-thumbnail img {
+    max-width: 85%;
+}
+
+.item-followers {
+    background: #00ce85;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+
+.summary-head .item-followers h4 {
+    display: inline;
+}
+
+.summary-head
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.item-summary .item-about-item {
+    margin-bottom: 15px;
+}
+
+.summary-head .summary-title {
+    float: right;
+    margin-top: -11px;
+}
